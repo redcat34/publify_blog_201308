@@ -1,0 +1,38 @@
+#ignore database and email credentials
+config/database.yml
+config/mail.yml
+config/storage.yml
+
+#ignore log files
+*.log
+*~
+log/*.log
+
+#ignore sqlite database files
+db/*.sqlite*
+db/*.sqlite*-journal
+
+#ignore docs
+doc/
+
+.*.swp
+.*.swo
+.DS_Store
+.rspec
+installer/rails_installer.yml
+/public/files
+/public/images/theme
+/public/javascripts/ckeditor/config.js
+/public/javascripts/ckeditor/config.bak
+/public/javascripts/all.js
+/public/robots.txt
+/public/stylesheets/theme
+/public/stylesheets/all.css
+tmp/*
+/coverage/
+nbproject
+public/cache/*
+Gemfile.lock
+.rbenv-version
+bin/
+.bundle/
