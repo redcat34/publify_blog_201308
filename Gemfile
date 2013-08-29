@@ -30,6 +30,8 @@ gem 'prototype_legacy_helper', '0.0.0', :git => 'http://github.com/rails/prototy
 gem 'rails_autolink', '~> 1.0.9'
 gem 'dynamic_form', '~> 1.1.4'
 
+gem 'rails_12factor', '0.0.2'
+
 group :development, :test do
   gem 'factory_girl', '~> 3.5'
   gem 'webrat'
@@ -37,3 +39,4 @@ group :development, :test do
   gem 'simplecov', :require => false
   gem 'pry-rails'
 end
+
